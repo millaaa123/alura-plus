@@ -8,16 +8,29 @@
 body{
 background-color: var();
 color: var(--branco-principal);
-}
-
-*{
-   margin:0;
-   padding:0;
 
 }
 
+{
+margin:0;
+padding:0;
+}
 .principal{
 background-image:url(img/Background\ \(1\).png) ;
 background-repeat: no-repeat;
-}backgroud-size: cantain;
-aling-items:center;
+backgroud-size: cantain;
+aling-items:center; center;
+text-aling: center;
+}
+.container{
+height:  100vh;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.container_botao{
+background-color: var(--botao);
+border-radius: 5px;
+padding: 1em;
+color: var(branco);
+display: block;
+}
